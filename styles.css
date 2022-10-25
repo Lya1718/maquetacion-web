@@ -1,0 +1,78 @@
+/*# sourceMappingURL=styles.css.map */
+body {
+    margin: 0;
+    background: lightgray;
+    
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.portada {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+}
+
+:root {
+    --main-color: white;
+}
+
+
+.fg {
+    color: blue;
+    padding: 0;
+    margin: 0;
+    transform: translate(0, -100%);
+    font-size: 60px;
+}
+
+#perfil {
+    position: relative;
+    justify-content: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 25%;
+}
+
+#name {
+    position: relative;
+    justify-content: center;
+    top: 45%;
+    left: 50%;
+    z-index: 7;
+    transform: translate(-50%, -140%);
+    width: 40%;
+}
+
+#sobremi {
+    padding-top: 30px;
+}
+
+.custom-section {
+    /* transform: translate(0, -10%);
+    padding-bottom: 10px; */
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+}
+

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio Web - Lourdes Ramos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="contacto/arg-programa.png" alt="Bootstrap" width="100" height="">
+            </a>
+            <a class="navbar-brand" href="#">
+                <h3><span class="badge">Argentina Programa #YoProgramo</span></h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="contacto/gmail.png" alt="Bootstrap" width="30" height="24">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="contacto/ig.png" alt="Bootstrap" width="30" height="30">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="contacto/facebook.png" alt="Bootstrap" width="30" height="">
+                        </a>
+                    </li>
+                    <button class="btn btn-primary me-md-2" type="button">LOGIN</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div class="bg home">
+        <img id="portada" src="banner/ciudad.jpg" class="img-fluid" alt="...">
+    </div>
+    <div class="container">
+        <img id="perfil" src="banner/loa.png" class="img-fluid" alt="...">
+    </div>
+    <div class="container">
+        <img id="name" src="banner/name.png" class="img-fluid" alt="...">
+    </div>
+    <!-- sobre mí -->
+    <section od="sobremi" class="container custom-section">
+        <div class="row">
+            <div class="cb col-md text-center">
+                <h3 class="card-text">Sobre mí</h3>
+                <p class="card-text">
+                    Hola! Mi nombre es Lourdes, soy una desarrolladora web ubicada en Argentina con un especial interés
+                    en la creación y diseño de obras completamente originales, autodidacta, trabajadora
+                    independiente y amante de la música.
+                </p>
+            </div>
+            <div class="col-md" data-aos="fade-down-right">
+                <img src="items/code.png" class="card-img-top" alt="A person with his hands on a computer.">
+            </div>
+        </div>
+    </section>
+    <!-- educación -->
+    <section class="container custom-section">
+        <div class="row">
+            <div class="col-md" data-aos="fade-down-left">
+                <img src="items/languages.svg" class="card-img-top" alt="A person sitting in front of a computer.">
+            </div>
+            <div class="cb col-md">
+                <div class="cb col-md text-center">
+                    <h3>Formación Académica</h3>
+                    <br>
+                    <h5>Educación Primaria</h5>
+                    <p class="lo">
+                        E.P.E.P. N°158 "Sargento Cabral" 2009-2015
+                    </p>
+                    <h5>Educación Secundaria</h5>
+                    E.P.E.S. N°2 "Batalla de Maipú" 2016-2021
+                    </p>
+                    <h5>Future Learn</h5>
+                    <p class="lo">
+                        Basic English 1: Elementary 2021
+                        <br>
+                        Basic English 2: Pre-Intermediate 2021
+                    </p>
+                    <h5>Argentina Programa</h5>
+                    <p class="lo">
+                        #SéProgramar 2022
+                        <br>
+                        #YoProgramo 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- habilidades -->
+    <section class="container last">
+        <div class="row">
+            <div class="cb col-md">
+                <div class="card-text">
+                    <h3>Habilidades</h3>
+                    <p>Front End</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <br>
+                    <p>Back End</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 40%"></div>
+                    </div>
+                    <br>
+                    <p>Pensamiento crítico</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 80%"></div>
+                    </div>
+                    <br>
+                    <p>Inglés</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" data-aos="fade-down-left">
+                <img src="items/coding.svg" class="card-img-top" alt="A person coding on a computer.">
+            </div>
+        </div>
+    </section>
+    <!-- proyectos -->
+    <section class="container ultimo">
+        <div class="row">
+            <div class="col-md" data-aos="fade-down-right">
+                <a href=""><img src="items/proyectoss.png" class="card-img-top" alt="Mis proyectos"></a>
+            </div>
+            <div class="cb col-md text-center">
+                <h3 class="card-text">Proyectos</h3>
+                <p class="card-text">
+                    Desde que me he comenzado a interesar en el desarrollo web, he hecho varios proyectos de práctica
+                    para mejorar mis habilidades con los lenguajes HTML5, CSS y JavaScript. Algunos de ellos han sido
+                    un blog de algunos trabajos de diseño y edición, un menú para una tienda de Café, y una página
+                    con imágenes de gatos.
+                    <ul>
+                        <li>CatPhotoApp - 07/09/2022</li>
+                        <li>Menu Coffee - 13/09/2022</li>
+                        <li>Blog de Lya - 25/08/2022</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container text-center">
+            <p>CopyRight 2022- Loa</p>
+        </div>
+    </footer>
+    <!-- javascript -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
